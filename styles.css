@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#map {
+  height: 100vh;
+}
+
+.div-float {
+  width: 300px;
+  padding: 10px;
+  left: 10px;
+  position: absolute;
+  z-index: 999;
+  top: 85px;
+  background-color: white;
+  border-radius: 2px;
+  border: solid 1px grey;
+}
