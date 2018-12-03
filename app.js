@@ -1,5 +1,5 @@
 //ubicamos el mapa en Buenos Aires
-var map = L.map('map').setView([-34.595597, -58.371119], 8);
+var map = L.map('map').setView([-34.595597, -58.371119], 4);
 
 //añadimos el mapa de openstreet
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
